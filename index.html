@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <meta charset="uft-8">
+    <link rel="stylesheet" href='/styles.css'>
+  </head>
+  <body>
+    <div class="container">
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Hey there , please help us undestand you better!</p>
+    <section>
+      <div>
+        <form id="survey-form">
+          <fieldset>
+            <label for="name" id="name-label">Name: <input id="name" type="text" placeholder="kartik" required /></label>
+            <label id="email-label">Email: <input id="email" type="email" placeholder="abc@gmail.com" required/> </label>
+            <fieldset><label id="number-label">Phone Number: <input type="number" id="number" min="1" max="9999999999" placeholder="+91" /></label></fielset>
+          </fieldset>
+          <fieldset>
+            <label for="hear_about_us">How did you hear about us?
+            <select id="dropdown">
+              <option value="Select">Select</option>
+              <option value="Youtube">Youtube</option>
+              <option value="Facebook">Facebook</option>
+            </select>
+            </label>
+            <label>What kind of courses do you want?
+                <select>
+                  <option value="Select">Select</option>
+                  <option value="Full_stack">Full Stack</option>
+                  <option value="Frontend">Frontend</option>
+                  <option value="Backend">Backend</option>
+                  <option value="DSA">DSA</option>
+                </select>
+            </label>
+          </fieldset>
+          <fieldset>
+            <label>
+              Which programming language are using?          
+              <label for="option1"><input type="radio" id="option1" name="language" value="C++"/>C++</label>
+             <label for="option2"><input type="radio" id="option2" name="language" value="Java"/>Java</label>
+             <label for="option3"><input type="radio" id="option3" name="language" value="C"/>C</label>
+             <label for="option4"><input type="radio" id="option4" name="language" value="Python"/>Python</label>
+             <label for="option5"><input type="radio" id="option5" name="language" value="C#"/>C#</label>
+            </label>
+          </fieldset>
+          <fieldset>
+            <lable>
+            Which way of learning is comfortable for you?
+       <label for="Home"><input type="radio" name="learning_way" value="Home" id="Home"/>In home learning</label>
+            <label for="Coaching"><input type="radio" name="learning_way" value="Class" id="Coaching"/>In class coaching</label>
+            <label for="Any"><input type="radio" name="learning_way" value="Any" id="Any"/>Any of the above</label>
+            </label>
+          </fieldset>
+          <fieldset>
+           <label for="textarea"> Feedback from your side:
+            <textarea  id="textarea" placeholder="The courses were great......"></textarea><label>
+          </fieldset>
+          <fieldset>
+            <label for="Updates">
+              <input type="checkbox" id="Updates" value="Send_Updates"/> Send me updates.
+            </label>
+            <label for="Terms">
+              <input type="checkbox" id="Terms" value="Terms_accepted" checked/>Accept terms and conditions.
+          </fieldset>
+            <input type="submit" name="submit" id="submit" />
+        </form>
+      </div>
+    </section>
+    <div>
+    <footer></footer>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "form",
+  "version": "1.0.0",
+  "description": "Sample form",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheMohit2003/Form-.git"
+  },
+  "author": "Mohit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheMohit2003/Form-/issues"
+  },
+  "homepage": "https://github.com/TheMohit2003/Form-#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
